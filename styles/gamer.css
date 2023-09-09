@@ -9,6 +9,49 @@ body {
 
 }
 
+/* common shared style */
+.title-primary {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.title-primary2 {
+    background-image: linear-gradient(to bottom, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 95px;
+    font-weight: 800;
+}
+
+.btn-pink {
+    width: 130px;
+    height: 48px;
+    border-radius :45px;
+    background: #F144AE;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    border: 0;
+}
+.btn-blue{
+    width: 130px;
+    height: 48px;
+    border-radius :45px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    border: 0;
+}
+
+/* nav style start from here */
+
+nav {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
 
 .nav-container {
     display: flex;
@@ -75,4 +118,21 @@ body {
 .nav-follow-container img {
     width: 50%;
     height: 36px;
+}
+
+/* nav style ends here */
+/* Banner style start here */
+.banner-section {
+    border: 1px solid tomato;
+    width: 1400px;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.banner-text{
+    width: 50%;
+}
+.banner-img{
+    width: 50%;
+    border: 1px solid tomato;
 }
