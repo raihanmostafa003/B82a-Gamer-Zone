@@ -1,0 +1,9 @@
+@media screen   and (max-width:400px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-item-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
