@@ -10,9 +10,14 @@ body {
 }
 
 /* common shared style */
+.primary-text {
+    color: #534C64;
+    font-size: 18px;
+}
+
 .title-primary {
     color: #0B0223;
-    font-size: 48px;
+    font-size: 50px;
     font-weight: 600;
 }
 
@@ -22,26 +27,24 @@ body {
     -webkit-background-clip: text;
     font-size: 95px;
     font-weight: 800;
+    margin: 0;
 }
 
 .btn-pink {
-    width: 130px;
-    height: 48px;
-    border-radius :45px;
+    padding: 10px 30px;
+    border-radius: 45px;
     background: #F144AE;
     color: #FFF;
     font-size: 20px;
-    font-weight: 400;
     border: 0;
 }
-.btn-blue{
-    width: 130px;
-    height: 48px;
-    border-radius :45px;
+
+.btn-blue {
+    padding: 10px 20px;
+    border-radius: 45px;
     background: #4EC5F7;
     color: #FFF;
     font-size: 20px;
-    font-weight: 400;
     border: 0;
 }
 
@@ -121,18 +124,38 @@ nav {
 }
 
 /* nav style ends here */
-/* Banner style start here */
-.banner-section {
-    border: 1px solid tomato;
-    width: 1400px;
-    min-height: 500px;
+
+
+/*------- Banner style start here */
+.banner-container {
+    margin: 50px auto 0;
+    max-width: 1400px;
+    min-height: 50px;
     display: flex;
-    justify-content: center;
+    gap: 50px;
 }
-.banner-text{
+
+.banner-content {
+    padding: 80px;
     width: 50%;
+
 }
-.banner-img{
-    width: 50%;
-    border: 1px solid tomato;
+
+.banner-img {
+    width: 100%;
+
+}
+.banner-img img{
+    width: 100%;
+    height: auto;
+
+}
+
+
+.fa-download,
+.fa-circle-play {
+    color: #F144AE;
+}
+.fa-regular, .fa-solid{
+    margin-right: 10px;
 }

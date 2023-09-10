@@ -5,5 +5,29 @@
     .nav-item-container{
         flex-direction: column;
         gap: 30px;
+        padding: 10px;
     }
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-content, .banner-img{
+        padding: 5px;
+        width: 100%;
+        text-align: center;
+    
+    }
+
+    .banner-content h1{
+        font-size: 60px;
+    }
+    .banner-content h2{
+        font-size: 30px;
+    }
+    .banner-content p{
+        font-size: 10px;
+    }
+    .banner-content button{
+        margin-top: 10px;
+    }
+    
 }
