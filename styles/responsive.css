@@ -1,5 +1,5 @@
 @media screen   and (max-width:400px) {
-    .nav-container{
+    .nav-container, .banner-container {
         flex-direction: column;
     }
     .nav-item-container{
@@ -7,9 +7,7 @@
         gap: 30px;
         padding: 10px;
     }
-    .banner-container{
-        flex-direction: column;
-    }
+    
     .banner-content, .banner-img{
         padding: 5px;
         width: 100%;
@@ -29,5 +27,14 @@
     .banner-content button{
         margin-top: 10px;
     }
-    
+    /* main section start here */
+    .gamer-container{
+        flex-direction: column;
+        
+    }
+    .gamer-img, .gamer-content{
+        padding-left: 0;
+        width: 100%;
+        text-align: center;
+    }
 }
