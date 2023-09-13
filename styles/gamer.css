@@ -289,7 +289,7 @@ nav {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    
+
 
 }
 
@@ -298,15 +298,119 @@ nav {
     align-items: center;
     gap: 10px;
     padding: 5px;
-    border: 1px solid gray;
+    border: 0;
     border-radius: 40px;
     color: #0B0223;
     font-size: 20px;
     font-weight: 600;
     cursor: pointer;
 }
-.btn-box:hover button{
+
+.btn-box:hover button {
     color: #F144AE;
     border: 1px solid #F144AE;
+
+}
+
+/* footer section start from here */
+.footer-container {
+    max-width: 1400px;
+    height: 600px;
+    margin: 50px auto;
+    background: #0B0223;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* footer logo container */
+
+.footer-logo-container {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    gap: 10px;
+    width: max-content;
+    margin: auto;
+
+}
+
+.footer-logo-container img {
+    padding: 5px;
+    object-fit: cover;
+}
+
+.footer-pink-g {
+    color: #F144AE
+}
+
+.footer-logo-container p {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFF;
+}
+
+/* footer logo container ends */
+.footer-item-container{
+    width: 800px;
+    margin: 30px auto;
+}
+.footer-item-container>ul {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-item-container li {
+    list-style: none;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+footer li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+
+
+}
+
+/* footer social icon */
+.footer-social{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: 0 auto;
+}
+.fa-brands {
+    font-size: 30px;
+    color: #FFF;
+
+}
+
+/* footer-terms-container */
+.footer-terms-container {
+    display: flex;
+    gap: 50px;
+    width: 700px ;
+    margin: 30px auto;
     
+}
+
+.footer-terms-container a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+
+
+}
+
+#footer-text {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+
 }
